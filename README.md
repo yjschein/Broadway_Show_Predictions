@@ -1,7 +1,5 @@
-<snippet>
-  <content><![CDATA[
 
-# ${1:Predicting the Price of Hamilton Tickets}
+# Predicting the Price of Hamilton Tickets
 
 
 ## Project Overview
@@ -16,10 +14,3 @@ The code was very clean and did not contain any missing values, however, I did c
 ## Modeling
 The best baseline model was an ARIMA model which gave me an RMSE score of around 160000. This means that the average weekly gross of a month in 2019 was off by an average of $160,000. This is not bad considering that the average weekly price of a month in 2019 is around $3,000,000. I also included ARIMA, ARIMAX, SARIMA, and SARIMAX in the data set. The best model was a SARIMA model with an RMSE of $130,000. 
 
-##
-
-
-
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
