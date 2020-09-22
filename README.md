@@ -17,6 +17,7 @@ Below are three graphs that I created. The first one shows week by week what the
 
 ## Modeling
 The best baseline model was an ARIMA model which gave me an RMSE score of around 160000. This means that the average weekly gross of a month in 2019 was off by an average of $160,000. This is not bad considering that the average weekly price of a month in 2019 is around $3,000,000. I also included ARIMA, ARIMAX, SARIMA, and SARIMAX in the data set. The best model was a SARIMA model with an RMSE of $130,000. Below I show my baseline model and its predictions vs the actual. And underneath that is my best model with the predicted values vs the actual values. 
+
 ![Baseline Graph](images/BaselineModel.png)
 ![Best Model](images/BestModel.png)
 
