@@ -11,9 +11,9 @@ Predicting the gross of broadway tickets is important for a few reasons. First o
 ## Data Preperation
 The code was very clean and did not contain any missing values, however, I did change a few things. I downsampled the data set so its monthly instead of weekly. Additionally, after building some baseline and regular models, I added some exogenous variables to see if that had an effect on the RMSE. More details to the changes that I made to the data are in the notebook. 
 
-![GitHub Logo](/Documents/Flatiron/Flatiron_FinalProject/df_year.png)
-![GitHub Logo](/Documents/Flatiron/Flatiron_FinalProject/df_month.png)
-![GitHub Logo](/Documents/Flatiron/Flatiron_FinalProject/df_week.png)
+/Documents/Flatiron/Flatiron_FinalProject/df_year.png
+/Documents/Flatiron/Flatiron_FinalProject/df_month.png
+/Documents/Flatiron/Flatiron_FinalProject/df_week.png
 
 ## Modeling
 The best baseline model was an ARIMA model which gave me an RMSE score of around 160000. This means that the average weekly gross of a month in 2019 was off by an average of $160,000. This is not bad considering that the average weekly price of a month in 2019 is around $3,000,000. I also included ARIMA, ARIMAX, SARIMA, and SARIMAX in the data set. The best model was a SARIMA model with an RMSE of $130,000. 
