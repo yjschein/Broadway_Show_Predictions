@@ -28,7 +28,7 @@ The best baseline model was an ARIMA model which gave me an RMSE score of around
 ![Best Model](images/BestModel.png)
 
 ## Conclusion
-In conclusion we can see that performing a grid search on a SARIMA model (no exogenous variables) gives us the best RMSE of all the other 30 plus models we tried. The order of variables for this model is (1,1,0) and the seasonal order is (1,1,0,12). The final model RMSE gives us an RMSE score of 131273. This means that in the year of 2019, our model was off on each month by its average weekly gross by $131,273. This model performs very well and can tell us whether or not we should invest in this broadway show. 
+In conclusion we can see that performing a grid search on a SARIMA model (no exogenous variables) gives us the best RMSE of all the other 50 plus models we tried. The order of variables for this model is (1,1,0) and the seasonal order is (1,1,0,12). The final model RMSE gives us an RMSE score of 131273. This means that in the year of 2019, our model was off on each month by its average weekly gross by $131,273. This model performs very well and can tell us whether or not we should invest in this broadway show. 
 
 ## Future Improvements
 I plan on making this model applicable to even more broadway shows and also adding more exogenous variables. 
