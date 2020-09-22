@@ -1,6 +1,6 @@
 
 # Predicting the Price of Hamilton Tickets
-
+![Hamilton](images/Hamilton.jpg)
 
 ## Project Overview
 The goal of this project was to predict the price of Hamilton tickets. I web scraped the data and gathered the weekly gross of every broadway show from 1985. I shortened this data set to only include the show Hamilton and changed the gross column (my target variable) to monthly gross. To clarify, this column is not the sum of all the weekly gross in a month, it is the average of all the weekly grosses for each month.
@@ -22,6 +22,8 @@ The best baseline model was an ARIMA model which gave me an RMSE score of around
 ![Best Model](images/BestModel.png)
 
 ## Conclusion
+In conclusion we can see that performing a grid search on a SARIMA model (no exogenous variables) gives us the best RMSE of all the other 30 plus models we tried. The order of variables for this model is (1,1,0) and the seasonal order is (1,1,0,12). The final model RMSE gives us an RMSE score of 131273. This means that in the year of 2019, our model was off on each month by its average weekly gross by $131,273. This model performs very well and can tell us whether or not we should invest in this broadway show. 
 
 ## Next Steps
+When I continue this project I will try to expand it by predicting on shows before they are even on broadway. I will try to predict whether or not the show will make it to broadway. This will be a classification problem. I can also solve this classification problem by using NLP to analyze articles that are written by Broadway show critics and see if the language that use in the article will transfer to a successful or unsuccessful show. 
 
