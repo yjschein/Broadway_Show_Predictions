@@ -11,6 +11,8 @@ Predicting the gross of broadway tickets is important for a few reasons. First o
 ## Data Preperation
 The code was very clean and did not contain any missing values, however, I did change a few things. I downsampled the data set so its monthly instead of weekly. Additionally, after building some baseline and regular models, I added some exogenous variables to see if that had an effect on the RMSE. More details to the changes that I made to the data are in the notebook. 
 
+![/Documents/Flatiron/Flatiron_FinalProject/df_year.png](https://github.com/yjschein/Flatiron_FinalProject)
+
 ![Year](/Documents/Flatiron/Flatiron_FinalProject/df_year.png)
 ![Month](/Documents/Flatiron/Flatiron_FinalProject/df_month.png)
 ![Week](/Documents/Flatiron/Flatiron_FinalProject/df_week.png)
