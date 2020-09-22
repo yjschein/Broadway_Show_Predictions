@@ -13,7 +13,7 @@ The code was very clean and did not contain any missing values, however, I did c
 
 ![/Documents/Flatiron/Flatiron_FinalProject/df_year.png](https://github.com/yjschein/Flatiron_FinalProject)
 
-![Year](/Documents/Flatiron/Flatiron_FinalProject/df_year.png)
+/Documents/Flatiron/Flatiron_FinalProject/df_year.png
 ![Month](/Documents/Flatiron/Flatiron_FinalProject/df_month.png)
 ![Week](/Documents/Flatiron/Flatiron_FinalProject/df_week.png)
 
