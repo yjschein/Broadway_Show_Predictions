@@ -2,11 +2,15 @@
 # Predicting the Price of Hamilton Tickets
 
 Link to slideshow presentation: https://docs.google.com/presentation/d/1rX0t7Q_ie-mSRFGFblLRrLqIw4imosQBAuIJsxIPCBA/edit#slide=id.p
+Link to linkedin: https://www.linkedin.com/in/yehuda-schein-19b5bb166/
 
 ![Hamilton](images/Hamilton.jpg)
 
 ## Project Overview
-The goal of this project was to predict the price of Hamilton tickets. I web scraped the data and gathered the weekly gross of every broadway show from 1985. I shortened this data set to only include the show Hamilton and changed the gross column (my target variable) to monthly gross. To clarify, this column is not the sum of all the weekly gross in a month, it is the average of all the weekly grosses for each month.
+The goal of this project was to predict the price of Hamilton tickets. I web scraped the data from the playbill website and gathered the weekly gross of every broadway show from 1985. I shortened this data set to only include the show Hamilton and changed the gross column (my target variable) to monthly gross. To clarify, this column is not the sum of all the weekly gross in a month, it is the average of all the weekly grosses for each month.
+
+## Date Source
+The data was webscraped from https://www.playbill.com/grosses. For more information about the webscraping please see https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-04-28. 
 
 ## Purpose / Business Understanding
 Predicting the gross of broadway tickets is important for a few reasons. First of all, if a show is not reaching its full potential then it is very likely that the show will fail. Stakeholders that will be intersted in this problem are people that want to invest in broadway shows and make a profit. The broadway industry makes billions of dollars every year and each broadway show costs millions of dollars to produce. And the number one way that a show makes money is by selling tickets. If someone can predict the weekly/monthly gross of a broadway show then they will be able to know which shows they should invest in. 
@@ -35,4 +39,7 @@ I plan on making this model applicable to even more broadway shows and also addi
 
 ## Next Steps
 When I continue this project I will try to expand it by predicting on shows before they are even on broadway. I will try to predict whether or not the show will make it to broadway. This will be a classification problem. I can also solve this classification problem by using NLP to analyze articles that are written by Broadway show critics and see if the language that use in the article will transfer to a successful or unsuccessful show. 
+
+
+
 
