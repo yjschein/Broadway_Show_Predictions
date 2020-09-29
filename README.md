@@ -36,14 +36,10 @@ The best baseline model was an ARIMA model which gave me an RMSE score of around
 ![Best Model](images/BestModel.png)
 
 ## Conclusion
-In conclusion, we can see that performing a grid search on a SARIMA model (no exogenous variables) gives us the best RMSE of all the other 50 plus models we tried. The order of variables for this model is (1,1,0) and the seasonal order is (1,1,0,12). The final model RMSE gives us an RMSE score of 131273. This means that in the year of 2019, our model was off on each month by its average weekly gross by $131,273. This model performs very well and can tell us whether we should invest in this Broadway show. 
+In conclusion, we can see that performing a grid search on a SARIMA model (no exogenous variables) gives us the best RMSE of all the other 50 plus models we tried. The order of variables for the Hamilton model is (1,1,0) and the seasonal order is (1,1,0,12). The final Hamilton model gives us an RMSE score of 131273. This means that in the year of 2019, our model was off on each month by its average weekly gross by $131,273. This model performs very well and can tell us whether we should invest in this Broadway show. 
 
-## Future Improvements
-I plan on making this model applicable to even more Broadway shows and adding more exogenous variables. 
-
-## Next Steps
-When I continue this project, I will try to expand it by predicting on shows before they are even on Broadway. I will try to predict whether the show will make it to Broadway. This will be a classification problem. I can also solve this classification problem by using NLP to analyze articles that are written by Broadway show critics and see if the language that use in the article will transfer to a successful or unsuccessful show. 
-
+## Future Improvements and Next Steps
+When I continue this project, I will try to expand it by predicting on shows before they are even on Broadway. I will try to predict whether the show will make it to Broadway. This will be a classification problem. I can also solve this classification problem by using NLP to analyze articles that are written by Broadway show critics and see if the language that they use in the article will transfer to a successful or unsuccessful show. 
 
 
 
